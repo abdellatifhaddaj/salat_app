@@ -1,5 +1,5 @@
 name: salat_app
-description: Prayer times app for Morocco.
+description: Prayer times app for Morocco
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,10 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  adhan: ^2.0.1
+  adhan: ^2.0.0+1
   intl: ^0.19.0
   geolocator: ^11.0.0
   permission_handler: ^11.3.1
+  timezone: ^0.9.2
+  flutter_local_notifications: ^17.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
